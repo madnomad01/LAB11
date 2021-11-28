@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="sign up.css">
+    </head>
+    <body>
+        <div class="left-side">
+        <p class="logo">RAMEN group</p>    
+        <h1>Sign Up to</h1>
+        <h2>Together on success!</h2>
+        <p class="upper-p">If you already have an account</p>
+        <p class="under-p">You can <a href="index.html">Login here!</a></p>
+        <img class="saly" src="img/Saly-14.png" alt="saly">
+        </div>
+        <div class="right-side">
+            <p class="sign-in">Sign up</p>
+             <div class="container">
+
+                <form id="rgs-form" action="#">
+                <div>
+                  <input type="text" class="email" placeholder="Enter email" name="email">
+                </div>
+                <div>
+                  <input type="text" class="name" placeholder="Create User name" name="name" >
+                </div>
+                <div>  
+                  <input type="text" class="number" placeholder="Contact number" name="number" >
+                </div>
+                <div>
+                   <input type="password" class="psw" id="password-input" type="password" placeholder="Password" name="password" >
+                   <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                </div>
+                <div>
+                   <input type="password" class="confirm-password" id="password-input2" placeholder="Confirm password" name="confirm-password">
+                   <a href="#" class="password-control2" onclick="return show_hide_password2(this);"></a>
+                </div>
+                <div>
+                   <button class="register" type="submit">Register</button>
+                </div>   
+                </form>
+             </div>
+             <p class="continue">or continue with</p>
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-google"></a>
+             <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <script src="sign up.js"></script>
+    </body>
+</html>

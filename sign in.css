@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+h1{
+position: absolute;
+width: 250px;
+height: 75px;
+left: 175px;
+top: 260px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+}
+h2{
+position: absolute;
+width: 396px;
+height: 53px;
+left: 175px;
+top: 340px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 52px;
+}
+.upper-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 480px;
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.under-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 510px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.logo{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 42px;
+top: 31px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+}
+.sign-in{
+position: absolute;
+width: 120px;
+height: 45px;
+left: 892px;
+top: 164px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+}
+.saly{
+position: absolute;
+left: 35%;
+top: 43%;
+height: 430px;
+}
+.uname{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 247px;
+    
+background: #F0EFFF;
+border-radius: 8px;
+border-color: #F0EFFF
+}
+.uname::placeholder{
+color: #A7A3FF;
+font-family: Poppins;
+}
+
+.psw{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 347px;
+background: #F0EFFF;
+border-radius: 8px;
+border-color: #F0EFFF;
+}
+.password-control{
+position: absolute;
+top: 371.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+.psw::placeholder{
+color: #A7A3FF;
+font-family: Poppins;
+}
+.login{
+position: absolute;
+left: 892px;
+top: 492px;
+width: 369px;
+height: 62px;
+
+background: #4D47C3;
+box-shadow: 0px 4px 61px rgba(77, 71, 195, 0.4);
+border-radius: 9px;
+text-align: center;
+color: white;
+}
+.continue{
+position: absolute;
+width: 130px;
+height: 24px;
+left: 1012px;
+top: 585px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+}
+.fa-facebook{
+position: absolute;
+left: 1006.96px;
+top: 670.02px;
+}
+.fa-google{
+    position: absolute;
+    left: 1067.85px;
+    top: 670.02px;
+}
+.fa-instagram{
+    position: absolute;
+    left: 1125.14px;
+    top: 670.02px;
+}
+.forgot{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 1142px;
+top: 426px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: #B0B0B0;
+}
+.error1 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+  .error2 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 361px;
+  }
+  .error3 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+
+@media only screen and (max-width: 768px){
+    h1{
+        position: absolute;
+        width: 250px;
+        height: 75px;
+        left: 26px;
+        top: 86px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 75px;
+        }
+    h2{
+        position: absolute;
+        width: 396px;
+        height: 53px;
+        left: 26px;
+        top: 147px;
+            
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 52px;
+            }
+    .logo{
+        position: absolute;
+        width: 150px;
+        height: 30px;
+        left: 26px;
+        top: 18px;
+                
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+                }  
+    .saly{
+        display: none;
+    }
+    .upper-p{
+        position: absolute;
+        width: 308px;
+        height: 24px;
+        left: 30px;
+        top: 220px;
+            
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        }
+    .under-p{
+        position: absolute;
+        width: 308px;
+        height: 24px;
+        left: 30px;
+        top: 251px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        }
+.uname{
+position: absolute;
+width: 369px;
+height: 52px;
+left: 26px;
+top: 320px;
+    
+background: #F0EFFF;
+border-radius: 8px;
+border-color: #F0EFFF
+}
+.uname::placeholder{
+color: #A7A3FF;
+font-family: Poppins;
+}
+
+.psw{
+position: absolute;
+width: 369px;
+height: 52px;
+left: 26px;
+top: 400px;
+background: #F0EFFF;
+border-radius: 8px;
+border-color: #F0EFFF;
+}
+.password-control{
+position: absolute;
+top: 423px;
+left: 350px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+.psw::placeholder{
+color: #A7A3FF;
+font-family: Poppins;
+}
+.login{
+position: absolute;
+left: 26px;
+top: 530px;
+width: 369px;
+height: 52px;
+
+background: #4D47C3;
+box-shadow: 0px 4px 61px rgba(77, 71, 195, 0.4);
+border-radius: 9px;
+text-align: center;
+color: white;
+}
+.forgot{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 278px;
+top: 464px;
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: #B0B0B0;
+    }
+.continue{
+position: absolute;
+width: 130px;
+height: 24px;
+left: 144px;
+top: 585px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+}
+.fa-facebook{
+position: absolute;
+left: 151px;
+top: 680px;
+}
+.fa-google{
+    position: absolute;
+    left: 191px;
+    top: 680px;
+}
+.fa-instagram{
+    position: absolute;
+    left: 231px;
+    top: 680px;
+}
+.sign-in{
+    display: none;
+}
+.error1 {
+    color: red;
+    position: absolute;
+    left: 140px;
+    top: 379px;
+  }
+  .error2 {
+    color: red;
+    position: absolute;
+    left: 90px;
+    top: 458px;
+  }
+  .error3 {
+    color: red;
+    position: absolute;
+    left: 140px;
+    top: 379px;
+  }                              
+}
